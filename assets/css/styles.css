@@ -1,0 +1,58 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Set the body background and center everything */
+body {
+    background-color: #33002C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the whole content */
+.container {
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Styling for the logo */
+.logo-container {
+    margin-bottom: 40px;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Button styles */
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000;
+}
